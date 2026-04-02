@@ -1,0 +1,221 @@
+{
+  "target_month": "2026-01",
+  "shared_companies": [
+    "EA01",
+    "EA11",
+    "EA12",
+    "EA18",
+    "EA22",
+    "EA37"
+  ],
+  "company_summary_preview": [
+    {
+      "company_code": "EA01",
+      "pbi_rows": 159,
+      "synapse_rows": 159,
+      "row_diff": 0,
+      "pbi_actual": "0",
+      "synapse_actual": "0",
+      "actual_diff": "0",
+      "pbi_budget": "0",
+      "synapse_budget": "0",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA11",
+      "pbi_rows": 381,
+      "synapse_rows": 381,
+      "row_diff": 0,
+      "pbi_actual": "0",
+      "synapse_actual": "0",
+      "actual_diff": "0",
+      "pbi_budget": "-1031390.63",
+      "synapse_budget": "-1031390.63",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA12",
+      "pbi_rows": 598,
+      "synapse_rows": 598,
+      "row_diff": 0,
+      "pbi_actual": "0",
+      "synapse_actual": "0",
+      "actual_diff": "0",
+      "pbi_budget": "-3473474.73",
+      "synapse_budget": "-3473474.73",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA18",
+      "pbi_rows": 301,
+      "synapse_rows": 306,
+      "row_diff": -5,
+      "pbi_actual": "-210344.04",
+      "synapse_actual": "0",
+      "actual_diff": "-210344.04",
+      "pbi_budget": "-477957.06",
+      "synapse_budget": "-477957.06",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA22",
+      "pbi_rows": 177,
+      "synapse_rows": 177,
+      "row_diff": 0,
+      "pbi_actual": "0",
+      "synapse_actual": "0",
+      "actual_diff": "0",
+      "pbi_budget": "-66506.94",
+      "synapse_budget": "-66506.94",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA37",
+      "pbi_rows": 245,
+      "synapse_rows": 263,
+      "row_diff": -18,
+      "pbi_actual": "-1800285.66",
+      "synapse_actual": "0",
+      "actual_diff": "-1800285.66",
+      "pbi_budget": "0",
+      "synapse_budget": "0",
+      "budget_diff": "0"
+    }
+  ],
+  "level3_diff_count": 2,
+  "level4_diff_count": 8,
+  "top_level3_diffs": [
+    {
+      "company_code": "EA37",
+      "level3_key": "",
+      "pbi_rows": 151,
+      "synapse_rows": 169,
+      "row_diff": -18,
+      "pbi_actual": "579579.69",
+      "synapse_actual": "2379865.35",
+      "actual_diff": "-1800285.66",
+      "pbi_budget": "0",
+      "synapse_budget": "0",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA18",
+      "level3_key": "",
+      "pbi_rows": 178,
+      "synapse_rows": 183,
+      "row_diff": -5,
+      "pbi_actual": "2063746.08",
+      "synapse_actual": "2274090.12",
+      "actual_diff": "-210344.04",
+      "pbi_budget": "1515111.07",
+      "synapse_budget": "1515111.07",
+      "budget_diff": "0"
+    }
+  ],
+  "top_level4_diffs": [
+    {
+      "company_code": "EA37",
+      "level4_key": "KS00/24014280",
+      "pbi_rows": 0,
+      "synapse_rows": 3,
+      "row_diff": -3,
+      "pbi_actual": "0",
+      "synapse_actual": "1623265.28",
+      "actual_diff": "-1623265.28",
+      "pbi_budget": "0",
+      "synapse_budget": "0",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA18",
+      "level4_key": "KS00/24014290",
+      "pbi_rows": 0,
+      "synapse_rows": 1,
+      "row_diff": -1,
+      "pbi_actual": "0",
+      "synapse_actual": "210344.04",
+      "actual_diff": "-210344.04",
+      "pbi_budget": "0",
+      "synapse_budget": "0",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA37",
+      "level4_key": "KS00/24014285",
+      "pbi_rows": 0,
+      "synapse_rows": 2,
+      "row_diff": -2,
+      "pbi_actual": "0",
+      "synapse_actual": "189006.46",
+      "actual_diff": "-189006.46",
+      "pbi_budget": "0",
+      "synapse_budget": "0",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA37",
+      "level4_key": "KS00/24014281",
+      "pbi_rows": 0,
+      "synapse_rows": 5,
+      "row_diff": -5,
+      "pbi_actual": "0",
+      "synapse_actual": "-10572.27",
+      "actual_diff": "10572.27",
+      "pbi_budget": "0",
+      "synapse_budget": "0",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA37",
+      "level4_key": "KS00/24014282",
+      "pbi_rows": 0,
+      "synapse_rows": 5,
+      "row_diff": -5,
+      "pbi_actual": "0",
+      "synapse_actual": "-1413.81",
+      "actual_diff": "1413.81",
+      "pbi_budget": "0",
+      "synapse_budget": "0",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA18",
+      "level4_key": "KS00/24014291",
+      "pbi_rows": 0,
+      "synapse_rows": 3,
+      "row_diff": -3,
+      "pbi_actual": "0",
+      "synapse_actual": "0",
+      "actual_diff": "0",
+      "pbi_budget": "0",
+      "synapse_budget": "0",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA37",
+      "level4_key": "KS00/24014286",
+      "pbi_rows": 0,
+      "synapse_rows": 3,
+      "row_diff": -3,
+      "pbi_actual": "0",
+      "synapse_actual": "0",
+      "actual_diff": "0",
+      "pbi_budget": "0",
+      "synapse_budget": "0",
+      "budget_diff": "0"
+    },
+    {
+      "company_code": "EA18",
+      "level4_key": "KS00/24014292",
+      "pbi_rows": 0,
+      "synapse_rows": 1,
+      "row_diff": -1,
+      "pbi_actual": "0",
+      "synapse_actual": "0",
+      "actual_diff": "0",
+      "pbi_budget": "0",
+      "synapse_budget": "0",
+      "budget_diff": "0"
+    }
+  ]
+}

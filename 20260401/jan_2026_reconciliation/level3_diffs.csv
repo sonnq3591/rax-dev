@@ -1,0 +1,3 @@
+company_code,level3_key,pbi_rows,synapse_rows,row_diff,pbi_actual,synapse_actual,actual_diff,pbi_budget,synapse_budget,budget_diff
+EA37,,151,169,-18,579579.69,2379865.35,-1800285.66,0,0,0
+EA18,,178,183,-5,2063746.08,2274090.12,-210344.04,1515111.07,1515111.07,0

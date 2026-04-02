@@ -1,0 +1,26 @@
+let
+    Source = SapBusinessWarehouse.Cubes("sapbwpapu.kuoksg.com", "00", "888", [Implementation="2.0"]),
+    ZSFIVA02 = Source{[Name="ZSFIVA02"]}[Data],
+    #"ZSFIVA02/ZSFIVA02_Q005" = ZSFIVA02{[Id="ZSFIVA02/ZSFIVA02_Q005"]}[Data],
+    #"Added Items" = Cube.Transform(#"ZSFIVA02/ZSFIVA02_Q005",
+        {
+            {Cube.ApplyParameter, "[ZV017CEP]", {"[0CURTYPE].[10]"}},
+            {Cube.ApplyParameter, "[ZV002CDP]", {"[0CO_AREA].[E000]"}},
+            {Cube.ApplyParameter, "[!V000009]", {{"[0COMP_CODE].[EA01]", "[0COMP_CODE].[EA11]", "[0COMP_CODE].[EA12]", "[0COMP_CODE].[EA18]", "[0COMP_CODE].[EA22]", "[0COMP_CODE].[EA37]", "[0COMP_CODE].[EA18]"}}},
+            {Cube.AddAndExpandDimensionColumn, "[0COMP_CODE]", {"[0COMP_CODE].[LEVEL01]"}, {"Company code.Company code Level 01"}},
+            {Table.AddColumn, "Company code.Company code Level 01.Company (Key)", each Cube.AttributeMemberProperty([Company code.Company code Level 01], "[20COMPANY]")},
+            {Cube.AddAndExpandDimensionColumn, "[0FISCPER]", {"[0FISCPER].[LEVEL01]"}, {"Fiscal year/period.Fiscal year/period Level 01"}},
+            {Cube.AddAndExpandDimensionColumn, "[0GL_ACCOUNT]", {"[0GL_ACCOUNT                   ALLGREEN_MANAGEMENT].[LEVEL00]", "[0GL_ACCOUNT                   ALLGREEN_MANAGEMENT].[LEVEL01]", "[0GL_ACCOUNT                   ALLGREEN_MANAGEMENT].[LEVEL02]", "[0GL_ACCOUNT                   ALLGREEN_MANAGEMENT].[LEVEL03]"}, {"G/L Account.Level 01", "G/L Account.Level 02", "G/L Account.Level 03", "G/L Account.Level 04"}},
+            {Cube.AddAndExpandDimensionColumn, "[ZSPROFCTR]", {"[ZSPROFCTR].[LEVEL01]"}, {"Profit Center.Profit Center Level 01"}},
+            {Table.AddColumn, "Profit Center.Profit Center Level 01.Key", each Cube.AttributeMemberProperty([Profit Center.Profit Center Level 01], "[2ZSPROFCTR]")},
+            {Table.AddColumn, "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName", each Cube.AttributeMemberProperty([Profit Center.Profit Center Level 01], "[MEMBER_UNIQUE_NAME]")},
+            {Cube.AddMeasureColumn, "MTD#(cr)#(lf)&0T_FPIE&#(cr)#(lf)Actual", "[Measures].[ZSFIVA02_R002_MTD]"},
+            {Cube.AddMeasureColumn, "MTD#(cr)#(lf)&0T_FPIE&#(cr)#(lf)Budget", "[Measures].[ZSFIVA02_R001_MTD]"},
+            {Table.AddColumn, "G/L Account.Level 01.Key", each Cube.AttributeMemberProperty([#"G/L Account.Level 01"], "[20GL_ACCOUNT]")},
+            {Table.AddColumn, "G/L Account.Level 02.Key", each Cube.AttributeMemberProperty([#"G/L Account.Level 02"], "[20GL_ACCOUNT]")},
+            {Table.AddColumn, "G/L Account.Level 03.Key", each Cube.AttributeMemberProperty([#"G/L Account.Level 03"], "[20GL_ACCOUNT]")},
+            {Table.AddColumn, "G/L Account.Level 04.Key", each Cube.AttributeMemberProperty([#"G/L Account.Level 04"], "[20GL_ACCOUNT]")}
+        }),
+    #"Filtered Rows" = Table.SelectRows(#"Added Items", each Text.Contains([#"Fiscal year/period.Fiscal year/period Level 01"], "2022") or Text.Contains([#"Fiscal year/period.Fiscal year/period Level 01"], "2023") or Text.Contains([#"Fiscal year/period.Fiscal year/period Level 01"], "2024") or Text.Contains([#"Fiscal year/period.Fiscal year/period Level 01"], "2025") or Text.Contains([#"Fiscal year/period.Fiscal year/period Level 01"], "2026"))
+in
+    #"Filtered Rows"

@@ -1,0 +1,223 @@
+@concat(
+    'SELECT  
+{ [Measures].[ZSFIVA02_R002_MTD],
+    [Measures].[ZSFIVA02_R001_MTD] } ON COLUMNS,
+    NON EMPTY
+    CROSSJOIN(
+    CROSSJOIN(
+    CROSSJOIN(
+    DISTINCT([0GL_ACCOUNT].[LEVEL01].MEMBERS),
+    DISTINCT([0FISCPER].[LEVEL01].MEMBERS)),
+    DISTINCT([0COMP_CODE].[LEVEL01].MEMBERS)),
+    DISTINCT([ZSPROFCTR].[LEVEL01].MEMBERS))
+    PROPERTIES MEMBER_CAPTION, MEMBER_UNIQUE_NAME
+    ON ROWS
+FROM ZSFIVA02/ZSFIVA02_Q005
+SAP VARIABLES
+[ZV016CES] including [0FISCPER].[',variables('FISCPER'),'],',
+'[ZV017CEP] including [0CURTYPE].[',pipeline().parameters.CURTYPE,'],',
+'[ZV002CDP] including [0CO_AREA].[',pipeline().parameters.CO_AREA,'],',
+'[!V000009] including [0COMP_CODE].['
+		,pipeline().parameters.COMP_CODE_LOW
+		,']:[0COMP_CODE].['
+		,pipeline().parameters.COMP_CODE_HIGH
+		,']'
+)
+
+---
+TSQL:
+WITH COA AS (
+    SELECT
+        HDR.HIEID, GL.NODENAME AS GL_ACCOUNT,
+        T6.NODENAME T6, T7.NODENAME T7, T8.NODENAME T8
+    FROM brnz.sapbw_HGL_ACCOUNT GL
+    INNER JOIN brnz.sapbw_RSHIEDIRT HDR 
+        ON HDR.TXTSH IN ('ALLGREEN Management') AND HDR.Langu = 'E' AND HDR.HIEID = GL.HIEID
+    FULL JOIN brnz.sapbw_HGL_ACCOUNT T8 ON GL.PARENTID = T8.NODEID AND T8.IOBJNM = '0HIER_NODE' AND HDR.HIEID = T8.HIEID
+    FULL JOIN brnz.sapbw_HGL_ACCOUNT T7 ON T8.PARENTID = T7.NODEID AND T7.IOBJNM = '0HIER_NODE' AND HDR.HIEID = T7.HIEID
+    FULL JOIN brnz.sapbw_HGL_ACCOUNT T6 ON T7.PARENTID = T6.NODEID AND T6.IOBJNM = '0HIER_NODE' AND HDR.HIEID = T6.HIEID
+    WHERE GL.IOBJNM = '0GL_ACCOUNT'
+),
+COA_SPLIT AS (
+    SELECT
+        HIEID, GL_ACCOUNT, T6, T7, T8,
+        CASE WHEN GL_ACCOUNT LIKE '%-%' 
+             THEN TRIM(LEFT(GL_ACCOUNT, CHARINDEX(' - ', GL_ACCOUNT) - 1))
+             ELSE GL_ACCOUNT 
+        END AS range_from,
+        CASE WHEN GL_ACCOUNT LIKE '%-%' 
+             THEN TRIM(SUBSTRING(GL_ACCOUNT, CHARINDEX(' - ', GL_ACCOUNT) + 3, 100))
+             ELSE GL_ACCOUNT 
+        END AS range_to
+    FROM COA
+),
+COA_DESC AS (
+    SELECT
+        CS.GL_ACCOUNT, CS.T6, CS.T7, CS.T8, CS.range_from, CS.range_to,
+        D6.TXTSH AS Level1_Desc,
+        D7.TXTSH AS Level2_Desc,
+        D8.TXTSH AS Level3_Desc
+    FROM COA_SPLIT CS
+    LEFT JOIN brnz.sapbw_RSTHIERNODE D6 ON D6.NODENAME = CS.T6 AND D6.HIEID = CS.HIEID AND D6.Langu = 'E'
+    LEFT JOIN brnz.sapbw_RSTHIERNODE D7 ON D7.NODENAME = CS.T7 AND D7.HIEID = CS.HIEID AND D7.Langu = 'E'
+    LEFT JOIN brnz.sapbw_RSTHIERNODE D8 ON D8.NODENAME = CS.T8 AND D8.HIEID = CS.HIEID AND D8.Langu = 'E'
+),
+FACT AS (
+    SELECT
+        gl_account_key,
+        gl_account_desc,
+        SUBSTRING(gl_account_key,
+                  CHARINDEX('].[', gl_account_key) + 3,
+                  LEN(gl_account_key) - CHARINDEX('].[', gl_account_key) - 3) AS clean_key,
+        comp_code_key,
+        SUBSTRING(comp_code_key,
+                  CHARINDEX('].[', comp_code_key) + 3,
+                  LEN(comp_code_key) - CHARINDEX('].[', comp_code_key) - 3) AS comp_code_key_clean,
+        comp_code_desc,
+        profit_ctr_key,
+        SUBSTRING(profit_ctr_key,
+                  CHARINDEX('].[', profit_ctr_key) + 3,
+                  LEN(profit_ctr_key) - CHARINDEX('].[', profit_ctr_key) - 3) AS profit_ctr_key_clean,
+        profit_ctr_desc,
+        fisc_period_key,
+        fisc_period_desc,
+        MTD_ACTUAL_AMT,
+        MTD_BUDGET_AMT,
+        Source,
+        RefreshedTime
+    FROM brnz.sapbw_zsfiva02_q005
+    WHERE gl_account_key IS NOT NULL
+      AND comp_code_key IS NOT NULL
+      AND profit_ctr_key IS NOT NULL
+      --AND fisc_period_desc = 'JAN 2026'
+)
+, FINAL AS (
+SELECT
+    -- Company
+    F.comp_code_desc                                            AS [Company code.Company code Level 01],
+    F.comp_code_key_clean                                       AS [Company code.Company code Level 01.Company (Key)],
+
+    -- Fiscal Period
+    F.fisc_period_desc                                          AS [Fiscal year/period.Fiscal year/period Level 01],
+
+    -- GL Hierarchy
+    C.Level1_Desc                                               AS [G/L Account.Level 01],
+    C.T6                                                        AS [G/L Account.Level 01.Key],
+    C.Level2_Desc                                               AS [G/L Account.Level 02],
+    C.T7                                                        AS [G/L Account.Level 02.Key],
+    C.Level3_Desc                                               AS [G/L Account.Level 03],
+    C.T8                                                          AS [G/L Account.Level 03.Key],
+    F.gl_account_desc                                           AS [G/L Account.Level 04],
+    F.clean_key                                                 AS [G/L Account.Level 04.Key],
+
+    -- Profit Center
+    F.profit_ctr_desc                                           AS [Profit Center.Profit Center Level 01],
+    F.profit_ctr_key_clean                                      AS [Profit Center.Profit Center Level 01.Key],
+    F.profit_ctr_key                                            AS [Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName],
+
+    -- Amounts
+    F.MTD_ACTUAL_AMT                                            AS [MTD&0T_FPIE&Actual],
+    F.MTD_BUDGET_AMT                                            AS [MTD&0T_FPIE&Budget],
+
+    -- Derived date columns
+    CASE 
+        WHEN F.fisc_period_desc NOT LIKE 'SP%'
+        THEN CAST(
+            CAST(RIGHT(F.fisc_period_desc, 4) AS VARCHAR(4)) + '-' +
+            RIGHT('0' + CAST(MONTH(CAST('01 ' + LEFT(F.fisc_period_desc, 3) + ' 2000' AS DATE)) AS VARCHAR(2)), 2)
+            + '-01' AS DATE)
+        ELSE NULL 
+    END                                                         AS [Reporting date],
+
+    CASE WHEN F.fisc_period_desc NOT LIKE 'SP%'
+         THEN CAST(RIGHT(F.fisc_period_desc, 4) AS INT)
+         ELSE NULL 
+    END                                                         AS [Report Year],
+
+    CASE WHEN F.fisc_period_desc NOT LIKE 'SP%'
+         THEN MONTH(CAST('01 ' + LEFT(F.fisc_period_desc, 3) + ' 2000' AS DATE))
+         ELSE NULL 
+    END                                                         AS [Report Month],
+
+    CASE WHEN F.fisc_period_desc NOT LIKE 'SP%'
+         THEN CAST(RIGHT(F.fisc_period_desc, 4) AS VARCHAR(4)) + '-' +
+              RIGHT('0' + CAST(MONTH(CAST('01 ' + LEFT(F.fisc_period_desc, 3) + ' 2000' AS DATE)) AS VARCHAR(2)), 2)
+         ELSE NULL 
+    END                                                         AS [Report Year-Month],
+
+    CASE WHEN F.fisc_period_desc NOT LIKE 'SP%'
+     THEN RIGHT('0' + CAST(MONTH(CAST('01 ' + LEFT(F.fisc_period_desc, 3) + ' 2000' AS DATE)) AS VARCHAR(2)), 2)
+          + '-' + LEFT(DATENAME(MONTH, CAST('01 ' + LEFT(F.fisc_period_desc, 3) + ' 2000' AS DATE)), 3)
+     ELSE NULL 
+    END                                                         AS [Report MMM],
+
+    -- Keep extra Synapse cols
+    F.fisc_period_key,
+    F.Source,
+    F.RefreshedTime
+
+FROM FACT F
+LEFT JOIN COA_DESC C ON F.clean_key BETWEEN C.range_from AND C.range_to
+--ORDER BY F.fisc_period_desc, F.comp_code_desc
+)
+, PBI_FORMAT AS (
+    SELECT
+        -- Company
+        [Company code.Company code Level 01],
+        [Company code.Company code Level 01.Company (Key)],
+
+        -- Fiscal Period: inline re-derive as 'JAN 2026'
+        UPPER(LEFT(DATENAME(MONTH, [Reporting date]), 3))
+            + ' ' + CAST(YEAR([Reporting date]) AS VARCHAR(4))              AS [Fiscal year/period.Fiscal year/period Level 01],
+
+        -- GL Descriptions
+        COALESCE([G/L Account.Level 01], 'Not Assigned G/L Account (s)')    AS [G/L Account.Level 01],
+        [G/L Account.Level 02],
+        [G/L Account.Level 03],
+        [G/L Account.Level 04],
+
+        -- Profit Center
+        [Profit Center.Profit Center Level 01],
+        [Profit Center.Profit Center Level 01.Key],
+        [Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName],
+
+        -- Amounts: keep NULLs as-is to match PBI
+        [MTD&0T_FPIE&Actual],
+        [MTD&0T_FPIE&Budget],
+
+        -- Reporting date
+        --[Reporting date],
+
+        -- GL Keys
+        [G/L Account.Level 01.Key],
+        [G/L Account.Level 02.Key],
+        CASE WHEN [G/L Account.Level 03.Key] = 'M_RENT_GROSS_TURN' THEN 'M_RENT_GROSS_TU'
+            WHEN [G/L Account.Level 03.Key] = 'M_GROSS_RENT_REV' THEN 'M_GROSS_RENT_RE'
+            ELSE [G/L Account.Level 03.Key] END AS [G/L Account.Level 03.Key],
+
+        -- GL04 Key: slash after pos 4, strip leading zeros
+        LEFT([G/L Account.Level 04.Key], 4) + '/' +
+            CAST(
+                CAST(
+                    SUBSTRING([G/L Account.Level 04.Key], 5, LEN([G/L Account.Level 04.Key]))
+                AS BIGINT)
+            AS VARCHAR(20))                                                  AS [G/L Account.Level 04.Key]--,
+
+        -- Date breakdowns
+        --[Report Year],
+        --[Report Month],
+        --[Report Year-Month],
+
+        ---- Report MMM: '01-Jan'
+        --[Report MMM]
+
+    FROM FINAL F
+)
+SELECT 
+    *,
+    CASE WHEN LEN([Fiscal year/period.Fiscal year/period Level 01]) = 8 
+             AND LEFT([Fiscal year/period.Fiscal year/period Level 01], 2) <> 'SP'
+        THEN CONVERT(DATE, '01 ' + [Fiscal year/period.Fiscal year/period Level 01], 106)
+        ELSE CONVERT(DATE, '19000101', 112)
+    END AS [Reporting date]
+FROM PBI_FORMAT

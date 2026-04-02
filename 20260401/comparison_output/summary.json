@@ -1,0 +1,932 @@
+{
+  "files": {
+    "pbi": "/workspaces/rax-dev/20260401/pbi.xlsx",
+    "synapse": "/workspaces/rax-dev/20260401/synapse.xlsx"
+  },
+  "row_counts": {
+    "pbi": 157987,
+    "synapse": 130684
+  },
+  "schema": {
+    "pbi_sheet": "ZSFIVA02_Q005",
+    "synapse_sheet": "Sheet1",
+    "pbi_column_count": 27,
+    "synapse_column_count": 17,
+    "shared_column_count": 17,
+    "columns_only_in_pbi": [
+      "Office Actual",
+      "Office Budget",
+      "Retail Actual",
+      "Retail Budget",
+      "Budget Summary",
+      "Segment",
+      "Report Year",
+      "Report Month",
+      "Report Year-Month",
+      "Report MMM"
+    ],
+    "columns_only_in_synapse": [],
+    "column_order_differences": [
+      {
+        "column": "Reporting date",
+        "pbi_position": 13,
+        "synapse_position": 17
+      },
+      {
+        "column": "G/L Account.Level 01.Key",
+        "pbi_position": 14,
+        "synapse_position": 13
+      },
+      {
+        "column": "G/L Account.Level 02.Key",
+        "pbi_position": 15,
+        "synapse_position": 14
+      },
+      {
+        "column": "G/L Account.Level 03.Key",
+        "pbi_position": 16,
+        "synapse_position": 15
+      },
+      {
+        "column": "G/L Account.Level 04.Key",
+        "pbi_position": 17,
+        "synapse_position": 16
+      }
+    ],
+    "shared_columns": [
+      "Company code.Company code Level 01",
+      "Company code.Company code Level 01.Company (Key)",
+      "Fiscal year/period.Fiscal year/period Level 01",
+      "G/L Account.Level 01",
+      "G/L Account.Level 02",
+      "G/L Account.Level 03",
+      "G/L Account.Level 04",
+      "Profit Center.Profit Center Level 01",
+      "Profit Center.Profit Center Level 01.Key",
+      "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName",
+      "MTD&0T_FPIE&Actual",
+      "MTD&0T_FPIE&Budget",
+      "Reporting date",
+      "G/L Account.Level 01.Key",
+      "G/L Account.Level 02.Key",
+      "G/L Account.Level 03.Key",
+      "G/L Account.Level 04.Key"
+    ]
+  },
+  "shared_row_comparison": {
+    "shared_column_count": 17,
+    "distinct_shared_rows_in_pbi": 157987,
+    "distinct_shared_rows_in_synapse": 130684,
+    "row_patterns_more_frequent_in_pbi": 157987,
+    "row_patterns_more_frequent_in_synapse": 130684,
+    "pbi_preview": [
+      {
+        "Company code.Company code Level 01": "Allgreen Properties Ltd",
+        "Company code.Company code Level 01.Company (Key)": "EA01",
+        "Fiscal year/period.Fiscal year/period Level 01": "APR 2022",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Gross Revenue",
+        "G/L Account.Level 03": "Other Revenue",
+        "G/L Account.Level 04": "FORFEIT/ PENALTY INC",
+        "Profit Center.Profit Center Level 01": "JH",
+        "Profit Center.Profit Center Level 01.Key": "DPJH00",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[DPJH00]",
+        "MTD&0T_FPIE&Actual": "-34200",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2022-04-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_",
+        "G/L Account.Level 02.Key": "M_GROSS_REV",
+        "G/L Account.Level 03.Key": "M_OTH_REV",
+        "G/L Account.Level 04.Key": "KS00/59107100",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "Allgreen Properties Ltd",
+        "Company code.Company code Level 01.Company (Key)": "EA01",
+        "Fiscal year/period.Fiscal year/period Level 01": "APR 2022",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Gross Revenue",
+        "G/L Account.Level 03": "Other Revenue",
+        "G/L Account.Level 04": "INT INC-LATE-3TH PTY",
+        "Profit Center.Profit Center Level 01": "JH",
+        "Profit Center.Profit Center Level 01.Key": "DPJH00",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[DPJH00]",
+        "MTD&0T_FPIE&Actual": "0",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2022-04-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_",
+        "G/L Account.Level 02.Key": "M_GROSS_REV",
+        "G/L Account.Level 03.Key": "M_OTH_REV",
+        "G/L Account.Level 04.Key": "KS00/59104210",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "Allgreen Properties Ltd",
+        "Company code.Company code Level 01.Company (Key)": "EA01",
+        "Fiscal year/period.Fiscal year/period Level 01": "APR 2022",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Gross Revenue",
+        "G/L Account.Level 03": "Other Revenue",
+        "G/L Account.Level 04": "MANAGEMENT FEE",
+        "Profit Center.Profit Center Level 01": "Head office",
+        "Profit Center.Profit Center Level 01.Key": "HO0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[HO0000]",
+        "MTD&0T_FPIE&Actual": "-415732",
+        "MTD&0T_FPIE&Budget": "-307532.3",
+        "Reporting date": "2022-04-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_",
+        "G/L Account.Level 02.Key": "M_GROSS_REV",
+        "G/L Account.Level 03.Key": "M_OTH_REV",
+        "G/L Account.Level 04.Key": "KS00/59301115",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "Allgreen Properties Ltd",
+        "Company code.Company code Level 01.Company (Key)": "EA01",
+        "Fiscal year/period.Fiscal year/period Level 01": "APR 2022",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Gross Revenue",
+        "G/L Account.Level 03": "Other Revenue",
+        "G/L Account.Level 04": "OTHINC-JOBCR SEC REV",
+        "Profit Center.Profit Center Level 01": "Head office",
+        "Profit Center.Profit Center Level 01.Key": "HO0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[HO0000]",
+        "MTD&0T_FPIE&Actual": "-14037.28",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2022-04-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_",
+        "G/L Account.Level 02.Key": "M_GROSS_REV",
+        "G/L Account.Level 03.Key": "M_OTH_REV",
+        "G/L Account.Level 04.Key": "KS00/59301120",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "Allgreen Properties Ltd",
+        "Company code.Company code Level 01.Company (Key)": "EA01",
+        "Fiscal year/period.Fiscal year/period Level 01": "APR 2022",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Gross Revenue",
+        "G/L Account.Level 03": "Other Revenue",
+        "G/L Account.Level 04": "REALISED GAIN",
+        "Profit Center.Profit Center Level 01": "Head office",
+        "Profit Center.Profit Center Level 01.Key": "HO0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[HO0000]",
+        "MTD&0T_FPIE&Actual": "20.83",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2022-04-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_",
+        "G/L Account.Level 02.Key": "M_GROSS_REV",
+        "G/L Account.Level 03.Key": "M_OTH_REV",
+        "G/L Account.Level 04.Key": "KS00/59004100",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "Allgreen Properties Ltd",
+        "Company code.Company code Level 01.Company (Key)": "EA01",
+        "Fiscal year/period.Fiscal year/period Level 01": "APR 2022",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Gross Revenue",
+        "G/L Account.Level 03": "Recovery from Tenants",
+        "G/L Account.Level 04": "RECOVERY EXPENSES",
+        "Profit Center.Profit Center Level 01": "Head office",
+        "Profit Center.Profit Center Level 01.Key": "HO0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[HO0000]",
+        "MTD&0T_FPIE&Actual": "8658.91",
+        "MTD&0T_FPIE&Budget": "18000",
+        "Reporting date": "2022-04-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_",
+        "G/L Account.Level 02.Key": "M_GROSS_REV",
+        "G/L Account.Level 03.Key": "M_RECO_TENTS",
+        "G/L Account.Level 04.Key": "KS00/85005130",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "Allgreen Properties Ltd",
+        "Company code.Company code Level 01.Company (Key)": "EA01",
+        "Fiscal year/period.Fiscal year/period Level 01": "APR 2022",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Gross Revenue",
+        "G/L Account.Level 03": "Recovery from Tenants",
+        "G/L Account.Level 04": "RECOVERY INCOME",
+        "Profit Center.Profit Center Level 01": "Head office",
+        "Profit Center.Profit Center Level 01.Key": "HO0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[HO0000]",
+        "MTD&0T_FPIE&Actual": "-8658.91",
+        "MTD&0T_FPIE&Budget": "-18000",
+        "Reporting date": "2022-04-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_",
+        "G/L Account.Level 02.Key": "M_GROSS_REV",
+        "G/L Account.Level 03.Key": "M_RECO_TENTS",
+        "G/L Account.Level 04.Key": "KS00/59107220",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "Allgreen Properties Ltd",
+        "Company code.Company code Level 01.Company (Key)": "EA01",
+        "Fiscal year/period.Fiscal year/period Level 01": "APR 2022",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Property Operating Expenses",
+        "G/L Account.Level 03": "Depreciation / Writeoff of Assets",
+        "G/L Account.Level 04": "AMTN-ROU",
+        "Profit Center.Profit Center Level 01": "Head office",
+        "Profit Center.Profit Center Level 01.Key": "HO0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[HO0000]",
+        "MTD&0T_FPIE&Actual": "55533.94",
+        "MTD&0T_FPIE&Budget": "55533.94",
+        "Reporting date": "2022-04-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_",
+        "G/L Account.Level 02.Key": "M_PROPERTY_OP_E",
+        "G/L Account.Level 03.Key": "M_DEPR_WRITEOFF",
+        "G/L Account.Level 04.Key": "KS00/86105400",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "Allgreen Properties Ltd",
+        "Company code.Company code Level 01.Company (Key)": "EA01",
+        "Fiscal year/period.Fiscal year/period Level 01": "APR 2022",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Property Operating Expenses",
+        "G/L Account.Level 03": "Depreciation / Writeoff of Assets",
+        "G/L Account.Level 04": "DEPN COMPUTER",
+        "Profit Center.Profit Center Level 01": "Head office",
+        "Profit Center.Profit Center Level 01.Key": "HO0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[HO0000]",
+        "MTD&0T_FPIE&Actual": "36184.22",
+        "MTD&0T_FPIE&Budget": "43749.92",
+        "Reporting date": "2022-04-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_",
+        "G/L Account.Level 02.Key": "M_PROPERTY_OP_E",
+        "G/L Account.Level 03.Key": "M_DEPR_WRITEOFF",
+        "G/L Account.Level 04.Key": "KS00/86006100",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "Allgreen Properties Ltd",
+        "Company code.Company code Level 01.Company (Key)": "EA01",
+        "Fiscal year/period.Fiscal year/period Level 01": "APR 2022",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Property Operating Expenses",
+        "G/L Account.Level 03": "Depreciation / Writeoff of Assets",
+        "G/L Account.Level 04": "DEPN FURN & FITTINGS",
+        "Profit Center.Profit Center Level 01": "Head office",
+        "Profit Center.Profit Center Level 01.Key": "HO0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[HO0000]",
+        "MTD&0T_FPIE&Actual": "16190.64",
+        "MTD&0T_FPIE&Budget": "16190.66",
+        "Reporting date": "2022-04-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_",
+        "G/L Account.Level 02.Key": "M_PROPERTY_OP_E",
+        "G/L Account.Level 03.Key": "M_DEPR_WRITEOFF",
+        "G/L Account.Level 04.Key": "KS00/86005100",
+        "count_difference": 1
+      }
+    ],
+    "synapse_preview": [
+      {
+        "Company code.Company code Level 01": "ALG Properties (Malaysia)",
+        "Company code.Company code Level 01.Company (Key)": "EA33",
+        "Fiscal year/period.Fiscal year/period Level 01": "2023-11-01",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Gross Revenue",
+        "G/L Account.Level 03": "Other Revenue",
+        "G/L Account.Level 04": "REALISED GAIN",
+        "Profit Center.Profit Center Level 01": "IH",
+        "Profit Center.Profit Center Level 01.Key": "IH0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[IH0000]",
+        "MTD&0T_FPIE&Actual": "0",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2023-11-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_INCOME",
+        "G/L Account.Level 02.Key": "M_GROSS_REV",
+        "G/L Account.Level 03.Key": "M_OTH_REV",
+        "G/L Account.Level 04.Key": "KS00/59004100",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "ALG Properties (Malaysia)",
+        "Company code.Company code Level 01.Company (Key)": "EA33",
+        "Fiscal year/period.Fiscal year/period Level 01": "2023-11-01",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Property Operating E",
+        "G/L Account.Level 03": "General & Admin Expe",
+        "G/L Account.Level 04": "ACCOUNTING FEE",
+        "Profit Center.Profit Center Level 01": "IH",
+        "Profit Center.Profit Center Level 01.Key": "IH0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[IH0000]",
+        "MTD&0T_FPIE&Actual": "648",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2023-11-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_INCOME",
+        "G/L Account.Level 02.Key": "M_PROPERTY_OP_EXP",
+        "G/L Account.Level 03.Key": "M_GA",
+        "G/L Account.Level 04.Key": "KS00/83001110",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "ALG Properties (Malaysia)",
+        "Company code.Company code Level 01.Company (Key)": "EA33",
+        "Fiscal year/period.Fiscal year/period Level 01": "2023-11-01",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Property Operating E",
+        "G/L Account.Level 03": "General & Admin Expe",
+        "G/L Account.Level 04": "AUDIT FEES",
+        "Profit Center.Profit Center Level 01": "IH",
+        "Profit Center.Profit Center Level 01.Key": "IH0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[IH0000]",
+        "MTD&0T_FPIE&Actual": "309.4",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2023-11-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_INCOME",
+        "G/L Account.Level 02.Key": "M_PROPERTY_OP_EXP",
+        "G/L Account.Level 03.Key": "M_GA",
+        "G/L Account.Level 04.Key": "KS00/83002110",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "ALG Properties (Malaysia)",
+        "Company code.Company code Level 01.Company (Key)": "EA33",
+        "Fiscal year/period.Fiscal year/period Level 01": "2023-11-01",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Property Operating E",
+        "G/L Account.Level 03": "General & Admin Expe",
+        "G/L Account.Level 04": "PRINT & STATIONERY",
+        "Profit Center.Profit Center Level 01": "IH",
+        "Profit Center.Profit Center Level 01.Key": "IH0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[IH0000]",
+        "MTD&0T_FPIE&Actual": "55",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2023-11-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_INCOME",
+        "G/L Account.Level 02.Key": "M_PROPERTY_OP_EXP",
+        "G/L Account.Level 03.Key": "M_GA",
+        "G/L Account.Level 04.Key": "KS00/85003130",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "ALG Properties (Malaysia)",
+        "Company code.Company code Level 01.Company (Key)": "EA33",
+        "Fiscal year/period.Fiscal year/period Level 01": "2023-11-01",
+        "G/L Account.Level 01": "Net Property Income",
+        "G/L Account.Level 02": "Property Operating E",
+        "G/L Account.Level 03": "General & Admin Expe",
+        "G/L Account.Level 04": "REG & FILING",
+        "Profit Center.Profit Center Level 01": "IH",
+        "Profit Center.Profit Center Level 01.Key": "IH0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[IH0000]",
+        "MTD&0T_FPIE&Actual": "55.5",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2023-11-01",
+        "G/L Account.Level 01.Key": "M_NET_PROPERTY_INCOME",
+        "G/L Account.Level 02.Key": "M_PROPERTY_OP_EXP",
+        "G/L Account.Level 03.Key": "M_GA",
+        "G/L Account.Level 04.Key": "KS00/85003140",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "ALG Properties (Malaysia)",
+        "Company code.Company code Level 01.Company (Key)": "EA33",
+        "Fiscal year/period.Fiscal year/period Level 01": "2023-11-01",
+        "G/L Account.Level 01": "Not Assigned G/L Account (s)",
+        "G/L Account.Level 02": "",
+        "G/L Account.Level 03": "",
+        "G/L Account.Level 04": "IC Due To",
+        "Profit Center.Profit Center Level 01": "IH",
+        "Profit Center.Profit Center Level 01.Key": "IH0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[IH0000]",
+        "MTD&0T_FPIE&Actual": "-6997.3",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2023-11-01",
+        "G/L Account.Level 01.Key": "",
+        "G/L Account.Level 02.Key": "",
+        "G/L Account.Level 03.Key": "",
+        "G/L Account.Level 04.Key": "KS00/31909150",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "ALG Properties (Malaysia)",
+        "Company code.Company code Level 01.Company (Key)": "EA33",
+        "Fiscal year/period.Fiscal year/period Level 01": "2023-11-01",
+        "G/L Account.Level 01": "Not Assigned G/L Account (s)",
+        "G/L Account.Level 02": "",
+        "G/L Account.Level 03": "",
+        "G/L Account.Level 04": "ISSUED SHARE CAPITAL",
+        "Profit Center.Profit Center Level 01": "IH",
+        "Profit Center.Profit Center Level 01.Key": "IH0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[IH0000]",
+        "MTD&0T_FPIE&Actual": "0",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2023-11-01",
+        "G/L Account.Level 01.Key": "",
+        "G/L Account.Level 02.Key": "",
+        "G/L Account.Level 03.Key": "",
+        "G/L Account.Level 04.Key": "KS00/41001110",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "ALG Properties (Malaysia)",
+        "Company code.Company code Level 01.Company (Key)": "EA33",
+        "Fiscal year/period.Fiscal year/period Level 01": "2023-11-01",
+        "G/L Account.Level 01": "Not Assigned G/L Account (s)",
+        "G/L Account.Level 02": "",
+        "G/L Account.Level 03": "",
+        "G/L Account.Level 04": "Intercompany Due Frm",
+        "Profit Center.Profit Center Level 01": "IH",
+        "Profit Center.Profit Center Level 01.Key": "IH0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[IH0000]",
+        "MTD&0T_FPIE&Actual": "0",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2023-11-01",
+        "G/L Account.Level 01.Key": "",
+        "G/L Account.Level 02.Key": "",
+        "G/L Account.Level 03.Key": "",
+        "G/L Account.Level 04.Key": "KS00/25002110",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "ALG Properties (Malaysia)",
+        "Company code.Company code Level 01.Company (Key)": "EA33",
+        "Fiscal year/period.Fiscal year/period Level 01": "2023-11-01",
+        "G/L Account.Level 01": "Not Assigned G/L Account (s)",
+        "G/L Account.Level 02": "",
+        "G/L Account.Level 03": "",
+        "G/L Account.Level 04": "NT. ACCRUALS",
+        "Profit Center.Profit Center Level 01": "IH",
+        "Profit Center.Profit Center Level 01.Key": "IH0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[IH0000]",
+        "MTD&0T_FPIE&Actual": "14.6",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2023-11-01",
+        "G/L Account.Level 01.Key": "",
+        "G/L Account.Level 02.Key": "",
+        "G/L Account.Level 03.Key": "",
+        "G/L Account.Level 04.Key": "KS00/31104100",
+        "count_difference": 1
+      },
+      {
+        "Company code.Company code Level 01": "ALG Properties (Malaysia)",
+        "Company code.Company code Level 01.Company (Key)": "EA33",
+        "Fiscal year/period.Fiscal year/period Level 01": "2023-11-01",
+        "G/L Account.Level 01": "Not Assigned G/L Account (s)",
+        "G/L Account.Level 02": "",
+        "G/L Account.Level 03": "",
+        "G/L Account.Level 04": "NT. PAYABLE-EMPLOYEE",
+        "Profit Center.Profit Center Level 01": "IH",
+        "Profit Center.Profit Center Level 01.Key": "IH0000",
+        "Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName": "[ZSPROFCTR].[IH0000]",
+        "MTD&0T_FPIE&Actual": "-35",
+        "MTD&0T_FPIE&Budget": "",
+        "Reporting date": "2023-11-01",
+        "G/L Account.Level 01.Key": "",
+        "G/L Account.Level 02.Key": "",
+        "G/L Account.Level 03.Key": "",
+        "G/L Account.Level 04.Key": "KS00/31103100",
+        "count_difference": 1
+      }
+    ]
+  },
+  "aggregations": {
+    "company_plus_level3": {
+      "key_columns": [
+        "Company code.Company code Level 01.Company (Key)",
+        "G/L Account.Level 03.Key"
+      ],
+      "pbi_group_count": 73,
+      "synapse_group_count": 188,
+      "groups_only_in_pbi": 0,
+      "groups_only_in_synapse": 115,
+      "groups_with_measure_or_count_differences": 73,
+      "only_in_pbi_preview": [],
+      "only_in_synapse_preview": [
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 03.Key": "",
+          "row_count": 333,
+          "MTD&0T_FPIE&Actual": "60006.1",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 03.Key": "M_GA",
+          "row_count": 78,
+          "MTD&0T_FPIE&Actual": "11389.05",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 03.Key": "M_OTH_REV",
+          "row_count": 5,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 03.Key": "M_RECO_TENTS",
+          "row_count": 3,
+          "MTD&0T_FPIE&Actual": "-71395.15",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA03",
+          "G/L Account.Level 03.Key": "",
+          "row_count": 711,
+          "MTD&0T_FPIE&Actual": "-112061.57",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA03",
+          "G/L Account.Level 03.Key": "M_GA",
+          "row_count": 197,
+          "MTD&0T_FPIE&Actual": "101960.99",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA03",
+          "G/L Account.Level 03.Key": "M_OTH_REV",
+          "row_count": 38,
+          "MTD&0T_FPIE&Actual": "10100.58",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA05",
+          "G/L Account.Level 03.Key": "",
+          "row_count": 402,
+          "MTD&0T_FPIE&Actual": "-98145.39",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA05",
+          "G/L Account.Level 03.Key": "M_GA",
+          "row_count": 196,
+          "MTD&0T_FPIE&Actual": "98145.39",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA05",
+          "G/L Account.Level 03.Key": "M_OTH_REV",
+          "row_count": 7,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        }
+      ],
+      "changed_preview": [
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 03.Key": "",
+          "pbi_row_count": 11523,
+          "synapse_row_count": 6450,
+          "pbi_MTD&0T_FPIE&Actual": "-45217793.61",
+          "synapse_MTD&0T_FPIE&Actual": "-35789407.3",
+          "pbi_MTD&0T_FPIE&Budget": "-21311857.11",
+          "synapse_MTD&0T_FPIE&Budget": "-21315857.11"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 03.Key": "M_DEPR_WRITEOFF",
+          "pbi_row_count": 218,
+          "synapse_row_count": 130,
+          "pbi_MTD&0T_FPIE&Actual": "4339244.87",
+          "synapse_MTD&0T_FPIE&Actual": "3551370.12",
+          "pbi_MTD&0T_FPIE&Budget": "1393396.68",
+          "synapse_MTD&0T_FPIE&Budget": "1393396.68"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 03.Key": "M_GA",
+          "pbi_row_count": 2196,
+          "synapse_row_count": 1287,
+          "pbi_MTD&0T_FPIE&Actual": "27083356.95",
+          "synapse_MTD&0T_FPIE&Actual": "23608465.06",
+          "pbi_MTD&0T_FPIE&Budget": "6858246.22",
+          "synapse_MTD&0T_FPIE&Budget": "6854536.22"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 03.Key": "M_MAINT",
+          "pbi_row_count": 83,
+          "synapse_row_count": 57,
+          "pbi_MTD&0T_FPIE&Actual": "2604985.57",
+          "synapse_MTD&0T_FPIE&Actual": "2604985.57",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 03.Key": "M_MKT_EXP",
+          "pbi_row_count": 168,
+          "synapse_row_count": 108,
+          "pbi_MTD&0T_FPIE&Actual": "10750926.03",
+          "synapse_MTD&0T_FPIE&Actual": "8616951.21",
+          "pbi_MTD&0T_FPIE&Budget": "7667640.41",
+          "synapse_MTD&0T_FPIE&Budget": "7667640.41"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 03.Key": "M_OTH_REV",
+          "pbi_row_count": 306,
+          "synapse_row_count": 187,
+          "pbi_MTD&0T_FPIE&Actual": "-24123934.99",
+          "synapse_MTD&0T_FPIE&Actual": "-21849569.42",
+          "pbi_MTD&0T_FPIE&Budget": "-3749648.05",
+          "synapse_MTD&0T_FPIE&Budget": "-3749648.05"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 03.Key": "M_RECO_TENTS",
+          "pbi_row_count": 152,
+          "synapse_row_count": 86,
+          "pbi_MTD&0T_FPIE&Actual": "1015.9",
+          "synapse_MTD&0T_FPIE&Actual": "1015.9",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 03.Key": "M_SALARY_EXP",
+          "pbi_row_count": 871,
+          "synapse_row_count": 480,
+          "pbi_MTD&0T_FPIE&Actual": "24562199.28",
+          "synapse_MTD&0T_FPIE&Actual": "19256188.86",
+          "pbi_MTD&0T_FPIE&Budget": "26977858.08",
+          "synapse_MTD&0T_FPIE&Budget": "24273210.84"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA11",
+          "G/L Account.Level 03.Key": "",
+          "pbi_row_count": 19659,
+          "synapse_row_count": 11317,
+          "pbi_MTD&0T_FPIE&Actual": "58323069.17",
+          "synapse_MTD&0T_FPIE&Actual": "54697926.68",
+          "pbi_MTD&0T_FPIE&Budget": "12758774",
+          "synapse_MTD&0T_FPIE&Budget": "8579261.07"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA11",
+          "G/L Account.Level 03.Key": "M_CARPARK_REV",
+          "pbi_row_count": 376,
+          "synapse_row_count": 228,
+          "pbi_MTD&0T_FPIE&Actual": "-7564497.01",
+          "synapse_MTD&0T_FPIE&Actual": "-7292493.76",
+          "pbi_MTD&0T_FPIE&Budget": "-8670537.43",
+          "synapse_MTD&0T_FPIE&Budget": "-7407100.84"
+        }
+      ]
+    },
+    "company_plus_level4": {
+      "key_columns": [
+        "Company code.Company code Level 01.Company (Key)",
+        "G/L Account.Level 04.Key"
+      ],
+      "pbi_group_count": 1262,
+      "synapse_group_count": 2567,
+      "groups_only_in_pbi": 21,
+      "groups_only_in_synapse": 1326,
+      "groups_with_measure_or_count_differences": 1234,
+      "only_in_pbi_preview": [
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/12101100",
+          "row_count": 15,
+          "MTD&0T_FPIE&Actual": "5000",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/14002100",
+          "row_count": 15,
+          "MTD&0T_FPIE&Actual": "78995000",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/43202100",
+          "row_count": 4,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA11",
+          "G/L Account.Level 04.Key": "KS00/10003100",
+          "row_count": 10,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA12",
+          "G/L Account.Level 04.Key": "KS00/10003100",
+          "row_count": 10,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA12",
+          "G/L Account.Level 04.Key": "KS00/14000100",
+          "row_count": 4,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA12",
+          "G/L Account.Level 04.Key": "KS00/25109133",
+          "row_count": 4,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA12",
+          "G/L Account.Level 04.Key": "KS00/31104110",
+          "row_count": 4,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA12",
+          "G/L Account.Level 04.Key": "KS00/83001190",
+          "row_count": 30,
+          "MTD&0T_FPIE&Actual": "20908.26",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA18",
+          "G/L Account.Level 04.Key": "KS00/32100000",
+          "row_count": 4,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        }
+      ],
+      "only_in_synapse_preview": [
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 04.Key": "KS00/12100100",
+          "row_count": 21,
+          "MTD&0T_FPIE&Actual": "-2",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 04.Key": "KS00/24050955",
+          "row_count": 34,
+          "MTD&0T_FPIE&Actual": "-10865",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 04.Key": "KS00/24050956",
+          "row_count": 1,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 04.Key": "KS00/24050957",
+          "row_count": 33,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 04.Key": "KS00/24201410",
+          "row_count": 9,
+          "MTD&0T_FPIE&Actual": "-1",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 04.Key": "KS00/31001100",
+          "row_count": 18,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 04.Key": "KS00/31102100",
+          "row_count": 5,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 04.Key": "KS00/31103100",
+          "row_count": 7,
+          "MTD&0T_FPIE&Actual": "0",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 04.Key": "KS00/31104100",
+          "row_count": 34,
+          "MTD&0T_FPIE&Actual": "8282",
+          "MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA02",
+          "G/L Account.Level 04.Key": "KS00/31909150",
+          "row_count": 34,
+          "MTD&0T_FPIE&Actual": "52645.85",
+          "MTD&0T_FPIE&Budget": "0"
+        }
+      ],
+      "changed_preview": [
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/10005100",
+          "pbi_row_count": 85,
+          "synapse_row_count": 47,
+          "pbi_MTD&0T_FPIE&Actual": "4857194.3",
+          "synapse_MTD&0T_FPIE&Actual": "0",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/10006100",
+          "pbi_row_count": 85,
+          "synapse_row_count": 47,
+          "pbi_MTD&0T_FPIE&Actual": "6575602.35",
+          "synapse_MTD&0T_FPIE&Actual": "-57339.51",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/10007100",
+          "pbi_row_count": 21,
+          "synapse_row_count": 12,
+          "pbi_MTD&0T_FPIE&Actual": "0",
+          "synapse_MTD&0T_FPIE&Actual": "-81943.57",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/10012160",
+          "pbi_row_count": 25,
+          "synapse_row_count": 11,
+          "pbi_MTD&0T_FPIE&Actual": "4360",
+          "synapse_MTD&0T_FPIE&Actual": "0",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/10105100",
+          "pbi_row_count": 85,
+          "synapse_row_count": 47,
+          "pbi_MTD&0T_FPIE&Actual": "-4662901.63",
+          "synapse_MTD&0T_FPIE&Actual": "-340003.43",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/10106100",
+          "pbi_row_count": 85,
+          "synapse_row_count": 47,
+          "pbi_MTD&0T_FPIE&Actual": "-6122172.28",
+          "synapse_MTD&0T_FPIE&Actual": "-695261.89",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/10107100",
+          "pbi_row_count": 85,
+          "synapse_row_count": 47,
+          "pbi_MTD&0T_FPIE&Actual": "0",
+          "synapse_MTD&0T_FPIE&Actual": "64822.86",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/11015100",
+          "pbi_row_count": 85,
+          "synapse_row_count": 47,
+          "pbi_MTD&0T_FPIE&Actual": "9007618.88",
+          "synapse_MTD&0T_FPIE&Actual": "-1999221.74",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/11115100",
+          "pbi_row_count": 85,
+          "synapse_row_count": 47,
+          "pbi_MTD&0T_FPIE&Actual": "-6889491.77",
+          "synapse_MTD&0T_FPIE&Actual": "-423002.84",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        },
+        {
+          "Company code.Company code Level 01.Company (Key)": "EA01",
+          "G/L Account.Level 04.Key": "KS00/12100100",
+          "pbi_row_count": 85,
+          "synapse_row_count": 47,
+          "pbi_MTD&0T_FPIE&Actual": "4575326547.36",
+          "synapse_MTD&0T_FPIE&Actual": "125255479.64",
+          "pbi_MTD&0T_FPIE&Budget": "0",
+          "synapse_MTD&0T_FPIE&Budget": "0"
+        }
+      ]
+    }
+  }
+}

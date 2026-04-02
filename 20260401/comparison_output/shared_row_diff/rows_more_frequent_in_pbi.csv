@@ -1,0 +1,201 @@
+Company code.Company code Level 01,Company code.Company code Level 01.Company (Key),Fiscal year/period.Fiscal year/period Level 01,G/L Account.Level 01,G/L Account.Level 02,G/L Account.Level 03,G/L Account.Level 04,Profit Center.Profit Center Level 01,Profit Center.Profit Center Level 01.Key,Profit Center.Profit Center Level 01.Profit Center Level 01.UniqueName,MTD&0T_FPIE&Actual,MTD&0T_FPIE&Budget,Reporting date,G/L Account.Level 01.Key,G/L Account.Level 02.Key,G/L Account.Level 03.Key,G/L Account.Level 04.Key,count_difference
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Gross Revenue,Other Revenue,FORFEIT/ PENALTY INC,JH,DPJH00,[ZSPROFCTR].[DPJH00],-34200,,2022-04-01,M_NET_PROPERTY_,M_GROSS_REV,M_OTH_REV,KS00/59107100,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Gross Revenue,Other Revenue,INT INC-LATE-3TH PTY,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,M_NET_PROPERTY_,M_GROSS_REV,M_OTH_REV,KS00/59104210,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Gross Revenue,Other Revenue,MANAGEMENT FEE,Head office,HO0000,[ZSPROFCTR].[HO0000],-415732,-307532.3,2022-04-01,M_NET_PROPERTY_,M_GROSS_REV,M_OTH_REV,KS00/59301115,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Gross Revenue,Other Revenue,OTHINC-JOBCR SEC REV,Head office,HO0000,[ZSPROFCTR].[HO0000],-14037.28,,2022-04-01,M_NET_PROPERTY_,M_GROSS_REV,M_OTH_REV,KS00/59301120,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Gross Revenue,Other Revenue,REALISED GAIN,Head office,HO0000,[ZSPROFCTR].[HO0000],20.83,,2022-04-01,M_NET_PROPERTY_,M_GROSS_REV,M_OTH_REV,KS00/59004100,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Gross Revenue,Recovery from Tenants,RECOVERY EXPENSES,Head office,HO0000,[ZSPROFCTR].[HO0000],8658.91,18000,2022-04-01,M_NET_PROPERTY_,M_GROSS_REV,M_RECO_TENTS,KS00/85005130,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Gross Revenue,Recovery from Tenants,RECOVERY INCOME,Head office,HO0000,[ZSPROFCTR].[HO0000],-8658.91,-18000,2022-04-01,M_NET_PROPERTY_,M_GROSS_REV,M_RECO_TENTS,KS00/59107220,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Depreciation / Writeoff of Assets,AMTN-ROU,Head office,HO0000,[ZSPROFCTR].[HO0000],55533.94,55533.94,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_DEPR_WRITEOFF,KS00/86105400,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Depreciation / Writeoff of Assets,DEPN COMPUTER,Head office,HO0000,[ZSPROFCTR].[HO0000],36184.22,43749.92,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_DEPR_WRITEOFF,KS00/86006100,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Depreciation / Writeoff of Assets,DEPN FURN & FITTINGS,Head office,HO0000,[ZSPROFCTR].[HO0000],16190.64,16190.66,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_DEPR_WRITEOFF,KS00/86005100,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Depreciation / Writeoff of Assets,DEPN OFFICE EQPT,Head office,HO0000,[ZSPROFCTR].[HO0000],641.86,641.87,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_DEPR_WRITEOFF,KS00/86007100,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,ACCOUNTING FEE,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83001110,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,ADMIN SERVICE FEE,Head office,HO0000,[ZSPROFCTR].[HO0000],49773.15,49957,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83001140,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,AUDIT FEES,Head office,HO0000,[ZSPROFCTR].[HO0000],4,4333.33,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83002110,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,BANK CHARGES,Head office,HO0000,[ZSPROFCTR].[HO0000],147.2,140,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/84102110,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,BANK CHARGES,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/84102110,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,BROCHURES & PRODUCT,JH,DPJH00,[ZSPROFCTR].[DPJH00],1701.3,0,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/87101115,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,DONATION/CC MESSAGE,Head office,HO0000,[ZSPROFCTR].[HO0000],,5000,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85009130,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,GENERAL EXPENSES,Head office,HO0000,[ZSPROFCTR].[HO0000],1012.69,440,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85009170,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,Gen-Oth-Office Rent,Head office,HO0000,[ZSPROFCTR].[HO0000],308,308,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85004140,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,HAND-OVER EXPENSES,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,11000,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/87101119,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,HRM FEE,Head office,HO0000,[ZSPROFCTR].[HO0000],66670.18,60099,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83001170,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,INTERNAL AUDIT FEE,Head office,HO0000,[ZSPROFCTR].[HO0000],12906.76,9219,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83001130,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,IT RELATED EXP,Head office,HO0000,[ZSPROFCTR].[HO0000],-1998.83,4845,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85009512,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,LEGAL FEES,Head office,HO0000,[ZSPROFCTR].[HO0000],42622.73,42438,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83004110,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,LEGAL FEES,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83004110,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,MANAGEMT FEE EXP,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83001180,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,MIS SERVICE FEE,Head office,HO0000,[ZSPROFCTR].[HO0000],184457.44,157133,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83001160,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,MKTG-ADVERTISING,JH,DPJH00,[ZSPROFCTR].[DPJH00],104322.08,50000,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/87101113,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,MKTG-ENTERTAINMENT,Head office,HO0000,[ZSPROFCTR].[HO0000],393.28,1525,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/87101120,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,MTCE OF SHOWFLAT,JH,DPJH00,[ZSPROFCTR].[DPJH00],4487,9000,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/87101117,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,NWSPR & PERIODICAL,Head office,HO0000,[ZSPROFCTR].[HO0000],0,232.8,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85003110,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,OTH PROFESS FEE EXP,Head office,HO0000,[ZSPROFCTR].[HO0000],6722.04,25000,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83009110,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,POSTAGE & COURIER,Head office,HO0000,[ZSPROFCTR].[HO0000],,5,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85003120,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,PRINT & STATIONERY,Head office,HO0000,[ZSPROFCTR].[HO0000],5589.19,1585,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85003130,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,PRINT & STATIONERY,JH,DPJH00,[ZSPROFCTR].[DPJH00],5.35,,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85003130,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,R & M - OTHERS,Head office,HO0000,[ZSPROFCTR].[HO0000],200,,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/82002990,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,REG & FILING,Head office,HO0000,[ZSPROFCTR].[HO0000],0,20,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85003140,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,RENT & RATES,JH,DPJH00,[ZSPROFCTR].[DPJH00],38879.85,9193.23,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85004120,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,S/BEN-OTHER,Head office,HO0000,[ZSPROFCTR].[HO0000],63.9,900,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/80205214,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,SECRETARIAL FEE,Head office,HO0000,[ZSPROFCTR].[HO0000],12909.03,12889,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83001120,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,SHOWFLAT/SHOWHOUSE,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,0,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/87101116,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,STAFBEN-LOCL-PRIVCAR,Head office,HO0000,[ZSPROFCTR].[HO0000],0,251.45,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/80205213,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,SUBSCRIPTION,Head office,HO0000,[ZSPROFCTR].[HO0000],634,2274,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85009110,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,TAX FEE,Head office,HO0000,[ZSPROFCTR].[HO0000],2244.24,3366,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83004210,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,TELEPHONE & TELEX,Head office,HO0000,[ZSPROFCTR].[HO0000],0,206.64,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/85009120,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,General & Admin Expenses,TREASURY FEE,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_GA,KS00/83001150,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Maintenance,PROFESSIONAL FEES,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_MAINT,KS00/63002100,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Maintenance,SALES AGENT FEE,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_MAINT,KS00/63700100,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Marketing Expenses,MKTG-AGT FEE AFT TOP,JH,DPJH00,[ZSPROFCTR].[DPJH00],721383.3,1593553.84,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_MKT_EXP,KS00/87101135,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Marketing Expenses,SPONSORSHIP COSTS,Head office,HO0000,[ZSPROFCTR].[HO0000],0,0,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_MKT_EXP,KS00/87305310,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Marketing Expenses,TENDER EXPENSES,Head office,HO0000,[ZSPROFCTR].[HO0000],0,200,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_MKT_EXP,KS00/87305110,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Salary & Related Expenses,EDUCATION & TRAINING,Head office,HO0000,[ZSPROFCTR].[HO0000],1474.77,1000,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_SALARY_EXP,KS00/80204210,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Salary & Related Expenses,EPF/SSS ON STAFF SAL,Head office,HO0000,[ZSPROFCTR].[HO0000],22025.83,23691.09,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_SALARY_EXP,KS00/80203332,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Salary & Related Expenses,INSURANCE- STAFF,Head office,HO0000,[ZSPROFCTR].[HO0000],13593.59,3112,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_SALARY_EXP,KS00/80205120,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Salary & Related Expenses,MEDICAL EXPENSES,Head office,HO0000,[ZSPROFCTR].[HO0000],6753.81,2516,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_SALARY_EXP,KS00/80205110,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Salary & Related Expenses,SALARY-OTH STAFF,Head office,HO0000,[ZSPROFCTR].[HO0000],,1500,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_SALARY_EXP,KS00/80201111,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Salary & Related Expenses,SDL,Head office,HO0000,[ZSPROFCTR].[HO0000],237,270,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_SALARY_EXP,KS00/80203350,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Salary & Related Expenses,STAFF ALLOW -OTHERS,Head office,HO0000,[ZSPROFCTR].[HO0000],5400,6704,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_SALARY_EXP,KS00/80205329,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Salary & Related Expenses,STAFF BONUS,Head office,HO0000,[ZSPROFCTR].[HO0000],41464.24,44671.33,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_SALARY_EXP,KS00/80202010,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Salary & Related Expenses,STAFF SALARIES,Head office,HO0000,[ZSPROFCTR].[HO0000],241010,268028,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_SALARY_EXP,KS00/80201010,1
+Allgreen Properties Ltd,EA01,APR 2022,Net Property Income,Property Operating Expenses,Salary & Related Expenses,STAFF WELFARE FUND,Head office,HO0000,[ZSPROFCTR].[HO0000],605.89,1040,2022-04-01,M_NET_PROPERTY_,M_PROPERTY_OP_E,M_SALARY_EXP,KS00/80205322,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,ACC DEPN-FUR & FIT,Head office,HO0000,[ZSPROFCTR].[HO0000],-16190.64,,2022-04-01,REST_H,,,KS00/10105100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,ACC DEPN-HARDWARE,Head office,HO0000,[ZSPROFCTR].[HO0000],-36184.22,,2022-04-01,REST_H,,,KS00/10106100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,ACC DEPN-OFFICE EQPT,Head office,HO0000,[ZSPROFCTR].[HO0000],-641.86,,2022-04-01,REST_H,,,KS00/10107100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,ACC DEPN-ROU,Head office,HO0000,[ZSPROFCTR].[HO0000],-55533.94,,2022-04-01,REST_H,,,KS00/11115100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,ACCOUNTING FEE,Head office,HO0000,[ZSPROFCTR].[HO0000],-435083.1,-501333.33,2022-04-01,REST_H,,,KS00/59301110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,ACCR/REF - MAINT FEE,JH,DPJH00,[ZSPROFCTR].[DPJH00],-39150.19,,2022-04-01,REST_H,,,KS00/31104120,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,ACCRUAL-LEAVE,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/33101129,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,ADVANCE TO VENDOR,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/22201400,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,AP CONVERSION,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/99003110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,AP CONVERSION,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/99003110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,AR CONVERSION,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/99002110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,ASSET PUR CLEAR A/C,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/19100110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,COMM ON BANKER GUAR,JH,DPJH00,[ZSPROFCTR].[DPJH00],,3955.62,2022-04-01,REST_H,,,KS00/63004190,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,COMPUTER HARDWARE,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/10006100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,CONNECTION FEE,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/63003110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-001287-Inc,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24065121,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-001287-Inc,JH,DPJH00,[ZSPROFCTR].[DPJH00],2378257.5,,2022-04-01,REST_H,,,KS00/24065121,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-001287-Main,Head office,HO0000,[ZSPROFCTR].[HO0000],-3867936.76,,2022-04-01,REST_H,,,KS00/24065120,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-001287-Main,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/24065120,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-001287-Out,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24065122,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-001287-Out,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/24065122,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-273868-Main,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24065275,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-437844-Inc,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24065116,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-437844-Main,Head office,HO0000,[ZSPROFCTR].[HO0000],-660000.6,,2022-04-01,REST_H,,,KS00/24065115,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-437844-Out,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24065117,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-556691-Inc,Head office,HO0000,[ZSPROFCTR].[HO0000],-22596.44,,2022-04-01,REST_H,,,KS00/24065186,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-556691-Inc,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/24065186,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-556691-Main,Head office,HO0000,[ZSPROFCTR].[HO0000],5006109.54,,2022-04-01,REST_H,,,KS00/24065185,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-556691-Main,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/24065185,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-556691-Out,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24065187,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DBS-SGD-556691-Out,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/24065187,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DEPOSITS-CONTROL AC,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/22201300,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DEPOSITS-CONTROL AC,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/22201300,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DIR MEETING ALLOWNC,Head office,HO0000,[ZSPROFCTR].[HO0000],,1000,2022-04-01,REST_H,,,KS00/80103130,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,DIVIDEND INCOME,Head office,HO0000,[ZSPROFCTR].[HO0000],,0,2022-04-01,REST_H,,,KS00/59103100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,EXPENSES RECOVERY,Head office,HO0000,[ZSPROFCTR].[HO0000],156325.95,,2022-04-01,REST_H,,,KS00/22301110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,EXPENSES RECOVERY,JH,DPJH00,[ZSPROFCTR].[DPJH00],-17158.77,,2022-04-01,REST_H,,,KS00/22301110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,FA CONVERSION,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/99004110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,FIN LEASE LIAB - LT,Head office,HO0000,[ZSPROFCTR].[HO0000],56847.84,,2022-04-01,REST_H,,,KS00/44203110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,FURNITURE & FITTINGS,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/10005100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,Fin. Derivative Liab,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/33101119,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,Fin. Derivative Liab,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/33101119,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,G/LOSS WINDING SUB,Head office,HO0000,[ZSPROFCTR].[HO0000],0,-1359952.44,2022-04-01,REST_H,,,KS00/85402130,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,GL CONVERSION,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/99005110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,GL CONVERSION,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/99005110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,GR/IR -TRADE,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/31003100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,GR/IR -TRADE,JH,DPJH00,[ZSPROFCTR].[DPJH00],-59315.2,,2022-04-01,REST_H,,,KS00/31003100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,GST (APPORTIONMENT),Head office,HO0000,[ZSPROFCTR].[HO0000],-70417.82,,2022-04-01,REST_H,,,KS00/31301800,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,GST (APPORTIONMENT),JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/31301800,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,GST/VAT RECOVERABLE,Head office,HO0000,[ZSPROFCTR].[HO0000],-149424.01,,2022-04-01,REST_H,,,KS00/22302210,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,GUARANTEE FEES CHG,JH,DPJH00,[ZSPROFCTR].[DPJH00],3955.62,,2022-04-01,REST_H,,,KS00/84102310,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,HSB-SGD-099001-Main,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24030810,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,IC Due To,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/31909150,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,INLAND REV -PPTY TAX,JH,DPJH00,[ZSPROFCTR].[DPJH00],-4801.08,,2022-04-01,REST_H,,,KS00/63000140,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,INPUT GST Rev charge,Head office,HO0000,[ZSPROFCTR].[HO0000],-617.45,,2022-04-01,REST_H,,,KS00/31301600,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,INPUT VAT / GST,Head office,HO0000,[ZSPROFCTR].[HO0000],61.88,,2022-04-01,REST_H,,,KS00/31301200,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,INPUT VAT / GST,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/31301200,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,INT CONSTRUCT LOAN,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/84002180,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,INT INC-ACU DEPOSIT,Head office,HO0000,[ZSPROFCTR].[HO0000],-4.28,,2022-04-01,REST_H,,,KS00/59104410,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,INT INC-I/C LOAN/ADV,Head office,HO0000,[ZSPROFCTR].[HO0000],-213106.87,-212994.85,2022-04-01,REST_H,,,KS00/59104230,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,INT ON LAND LOAN,JH,DPJH00,[ZSPROFCTR].[DPJH00],,90892.7,2022-04-01,REST_H,,,KS00/63004120,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,INT TERM/LAND LOAN,JH,DPJH00,[ZSPROFCTR].[DPJH00],141208.19,,2022-04-01,REST_H,,,KS00/84002170,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,INTEREST ON LEASE,Head office,HO0000,[ZSPROFCTR].[HO0000],1146.96,1146.96,2022-04-01,REST_H,,,KS00/84004110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,INVESTMENT IN SUBSI,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/12100100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,ISSUED SHARE CAPITAL,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/41001110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,Intercompany Due Frm,Head office,HO0000,[ZSPROFCTR].[HO0000],303.88,,2022-04-01,REST_H,,,KS00/25002110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,Inv-Subs-Impair-Prov,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/12200100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,LOAN TO SUSBSIDIARY,Head office,HO0000,[ZSPROFCTR].[HO0000],-5477809.12,,2022-04-01,REST_H,,,KS00/14000100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,LOSS ON LOAN-SUBSI,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/14100100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,LT CONSTRUCTION LOAN,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/43204100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,Long Term Loan (Bank,JH,DPJH00,[ZSPROFCTR].[DPJH00],18000000,,2022-04-01,REST_H,,,KS00/43101120,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,MAIN CONTRACT,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/63001110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,MARKETING EVENTS,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,0,2022-04-01,REST_H,,,KS00/87101121,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,MBB-SGD-001191-Main,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24001820,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,MKTG-MARKETING,JH,DPJH00,[ZSPROFCTR].[DPJH00],-1259.38,,2022-04-01,REST_H,,,KS00/87101111,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,NON TRADE PREPAYMENT,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/23201100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,NON TRADE PREPAYMENT,JH,DPJH00,[ZSPROFCTR].[DPJH00],-3955.62,,2022-04-01,REST_H,,,KS00/23201100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,NT. ACCRUALS,Head office,HO0000,[ZSPROFCTR].[HO0000],-268408.56,,2022-04-01,REST_H,,,KS00/31104100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,NT. ACCRUALS,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/31104100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,NT. PAYABLE-EMPLOYEE,Head office,HO0000,[ZSPROFCTR].[HO0000],47.6,,2022-04-01,REST_H,,,KS00/31103100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,NT. PAYABLE-EMPLOYEE,JH,DPJH00,[ZSPROFCTR].[DPJH00],-517.19,,2022-04-01,REST_H,,,KS00/31103100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,NT. RECEIVABLES,Head office,HO0000,[ZSPROFCTR].[HO0000],-82067.55,,2022-04-01,REST_H,,,KS00/22201100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,NT. RECEIVABLES-I/C,Head office,HO0000,[ZSPROFCTR].[HO0000],2335412.1,,2022-04-01,REST_H,,,KS00/22201200,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OCB-SGD-267001-Inc,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24050941,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OCB-SGD-267001-Main,Head office,HO0000,[ZSPROFCTR].[HO0000],109318.67,,2022-04-01,REST_H,,,KS00/24050940,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OCB-SGD-267001-Out,Head office,HO0000,[ZSPROFCTR].[HO0000],-292.14,,2022-04-01,REST_H,,,KS00/24050942,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OCB-SGD-267001-Out,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/24050942,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OCB-SGD-847001-Inc,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24050921,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OCB-SGD-847001-Main,Head office,HO0000,[ZSPROFCTR].[HO0000],3163.6,,2022-04-01,REST_H,,,KS00/24050920,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OCB-SGD-847001-Out,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24050922,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OFFICE EQUIPMENT,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/10007100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OFFICE INSURANCE,Head office,HO0000,[ZSPROFCTR].[HO0000],455.37,5900,2022-04-01,REST_H,,,KS00/85206110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OTH CREDITOR/PAYABLE,JH,DPJH00,[ZSPROFCTR].[DPJH00],48867.74,,2022-04-01,REST_H,,,KS00/31909130,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OTH PAY-CPF PAYABLE,Head office,HO0000,[ZSPROFCTR].[HO0000],-6107.83,,2022-04-01,REST_H,,,KS00/33102121,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OTHER RECOVERABLE,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/25109121,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OUTPUT GST Rev charg,Head office,HO0000,[ZSPROFCTR].[HO0000],617.45,,2022-04-01,REST_H,,,KS00/31301700,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OUTPUT VAT / GST,Head office,HO0000,[ZSPROFCTR].[HO0000],356.19,,2022-04-01,REST_H,,,KS00/31301300,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,OUTPUT VAT / GST,JH,DPJH00,[ZSPROFCTR].[DPJH00],-1201.12,,2022-04-01,REST_H,,,KS00/31301300,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,PAYROLL CLEARING,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/31908200,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,PERMANENT SHOWFLAT,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/63001190,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,PROPERTY MCTE FEE,JH,DPJH00,[ZSPROFCTR].[DPJH00],39150.19,29100,2022-04-01,REST_H,,,KS00/85005160,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,R&M - OFFICE UPKEEP,Head office,HO0000,[ZSPROFCTR].[HO0000],0,406,2022-04-01,REST_H,,,KS00/82002661,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,REALISED LOSS,Head office,HO0000,[ZSPROFCTR].[HO0000],73.63,,2022-04-01,REST_H,,,KS00/84201100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,REFUND OF PROPTY TAX,JH,DPJH00,[ZSPROFCTR].[DPJH00],-38879.85,,2022-04-01,REST_H,,,KS00/31104130,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,REFX Clearing-BS,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/39101120,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,RENTAL ADV -FRM CUST,Head office,HO0000,[ZSPROFCTR].[HO0000],-1493671.6,,2022-04-01,REST_H,,,KS00/31005140,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,RETAINED EARNINGS-CY,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/42104100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,RETAINED EARNINGS-CY,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/42104100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,RETAINED EARNINGS-PY,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/42104210,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,RETENTN SUM (TRADE),JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/31012100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,ROU - OTHER,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/11015100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,SALES DP - NPS,JH,DPJH00,[ZSPROFCTR].[DPJH00],-8760200,-23166930.21,2022-04-01,REST_H,,,KS00/53200100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,SCB-SGD-179778-Main,Head office,HO0000,[ZSPROFCTR].[HO0000],4.28,,2022-04-01,REST_H,,,KS00/24056210,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,SCB-SGD-179778-Out,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24056212,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,SHARE PREMIUM,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/42101110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,SITE STAFF COSTS,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/63001160,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,SUBMISSION FEE,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/63003100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,SUNDRY/OTHER INCOME,Head office,HO0000,[ZSPROFCTR].[HO0000],-38676.2,-38663.2,2022-04-01,REST_H,,,KS00/53300140,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,SUSPENSE-OTHERS,Head office,HO0000,[ZSPROFCTR].[HO0000],-3200,,2022-04-01,REST_H,,,KS00/23304117,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,T. ACCRUALS,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/31004100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,T. PAYABLES,Head office,HO0000,[ZSPROFCTR].[HO0000],-90356.19,,2022-04-01,REST_H,,,KS00/31001100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,T. PAYABLES,JH,DPJH00,[ZSPROFCTR].[DPJH00],-600328.21,,2022-04-01,REST_H,,,KS00/31001100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,T. PAYABLES-INTERCO,Head office,HO0000,[ZSPROFCTR].[HO0000],946302.69,,2022-04-01,REST_H,,,KS00/31002100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,T. PAYABLES-INTERCO,JH,DPJH00,[ZSPROFCTR].[DPJH00],62642.5,,2022-04-01,REST_H,,,KS00/31002100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,T/RECEIVABLES,JH,DPJH00,[ZSPROFCTR].[DPJH00],-7990189.88,,2022-04-01,REST_H,,,KS00/22101100,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,TAX PAYABLE (CY),Head office,HO0000,[ZSPROFCTR].[HO0000],90676.57,,2022-04-01,REST_H,,,KS00/31302210,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,TAX PAYABLE (PY),Head office,HO0000,[ZSPROFCTR].[HO0000],13523.74,,2022-04-01,REST_H,,,KS00/31302110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,TAXATION - CY,Head office,HO0000,[ZSPROFCTR].[HO0000],31493.82,17429.03,2022-04-01,REST_H,,,KS00/91001120,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,TAXATION - CY,JH,DPJH00,[ZSPROFCTR].[DPJH00],-122170.39,,2022-04-01,REST_H,,,KS00/91001120,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,TAXATION - PY,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/91001110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,TENDER DEPOSIT,JH,DPJH00,[ZSPROFCTR].[DPJH00],0,,2022-04-01,REST_H,,,KS00/31403110,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,TRAVEL-OVERSEA,Head office,HO0000,[ZSPROFCTR].[HO0000],,9000,2022-04-01,REST_H,,,KS00/81002210,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,TRD ACCR-MKTG AGT,JH,DPJH00,[ZSPROFCTR].[DPJH00],147274.8,,2022-04-01,REST_H,,,KS00/31004102,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,TRD ACCR-TOP DEV PTY,JH,DPJH00,[ZSPROFCTR].[DPJH00],92260.08,,2022-04-01,REST_H,,,KS00/31004101,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,TRD RECE - CLR ACCT,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/22101500,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,UOB-SGD-574746-Main,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24021535,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,UOB-SGD-574746-Out,Head office,HO0000,[ZSPROFCTR].[HO0000],0,,2022-04-01,REST_H,,,KS00/24021537,1
+Allgreen Properties Ltd,EA01,APR 2022,Not Assigned G/L Account (s),,,VAT/GST NTD,Head office,HO0000,[ZSPROFCTR].[HO0000],76939.7,55000,2022-04-01,REST_H,,,KS00/87004110,1
